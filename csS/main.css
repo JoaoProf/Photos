@@ -1,0 +1,309 @@
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0 none;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.menu-pincipal{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.menu{
+    position: relative;
+    top:-50px;
+    left: 600px;
+    height: 0%;
+    right: 580px;
+    width: 0%;
+    
+    
+}
+.box-galeria{
+    margin-bottom: 20px;
+    width: 600px;
+}
+.box-galeria1{
+    left: 50px;
+    margin-bottom: 20px;
+    width: 600px;
+    align-items: center;
+    margin: 30px;
+    background-color: blueviolet;
+    
+}
+#bord1{
+    margin-left: 60px;
+}
+.menu ul li {
+    display:inline-block;
+    margin: 0 auto;
+    
+   
+}
+.dim{
+    width: 500px;
+    height: 100px;
+}
+.dim li a:hover{
+    color: black;
+    
+}
+.Interface{
+    width: 90%;
+    height: 100%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    padding-left: 20px;
+}
+
+#logotipo{
+    position:relative;
+    top:45px;
+    left: 16px;
+    height: 0%;
+    right: 580px;
+    
+}
+
+ .model-1{
+    position:absolute;
+    top: 30%;
+    left: 5%;
+ }
+ #titulo{
+    position:absolute;
+    top: 180px;
+    left: 360px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+ }
+ #sub-titulo{
+    position:absolute;
+    top:262px;
+    left: 150px;
+    height: 0%;
+    right: 230px;
+    color: white;
+    text-align: center;
+    font-size:24px;
+ }
+ .texto{
+    position:absolute;
+    height: 10px;
+    width: 580;
+    top: 300px;
+    left: 0px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align:center;
+ }
+
+.redes ul li a{ 
+    display:inline-block;
+    text-decoration: none;
+
+ }
+.redes ul li{ 
+    display: inline-block;
+    float:left;
+    
+ }
+
+#tex11{
+    position:absolute;
+    top:420px;
+    left: 460px;
+    height: 0%;
+    text-align: justify;
+    right: 400px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#tex12{
+    position:absolute;
+    top:100px;
+    left: 470px;
+    height: 0%;
+    text-align: center;
+    right: 555px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.in1:hover{
+    transform: scale(3.3);
+}
+.in2:hover{
+    transform: scale(2.1);
+}
+.in2{
+    margin: 20px;
+
+}
+.soci:hover{
+    transform: scale(1.1)
+}
+#logotipo:hover{
+transform:scale(1.1)
+}
+div#q1{
+    background-position: left bottom;
+}
+
+
+footer{
+        position:relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #B4B4B4;
+        align-content:stretch;
+        width: 100%;
+        height: 200px;
+}
+footer .imagens-fundo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+}
+.col1{
+    margin-right: 20px;
+    text-align: center;
+    color:black
+}
+.col2{
+    margin-right: 20px;
+    text-align: center;
+}
+.col3{
+    margin-right: 20px;
+    text-align: center;
+}
+.col4{
+    font-size: 10px;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+.col4 ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.col4 h1{
+    padding-left: 30px;
+
+}
+
+footer.imagens-fundo col4 ul li a{
+    display:inline-block;
+text-decoration:none;
+}
+.box-texto{
+    position: relative;
+    left: 150px;
+    width: 583px;
+    height: 50%;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+.box-texto h1{
+    width: 1000px;
+    font-size: 60px;
+
+}
+.box-texto p{
+    width: 1000px;
+    
+}
+footer p1{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+footer h1{
+    font-size: 20px;
+    
+    color: black;
+}
+footer h2{
+    font-size: 20px;
+    color: white;
+}
+.re1:hover{
+    transform: scale(1.1);
+}
+.re2:hover{
+    transform: scale(1.1);
+}
+
+.re3:hover{
+    transform: scale(1.1);
+}
+.sub-sub{
+    position: relative;
+    left: 220px;
+}
+.formatext{
+    position: relative;
+    left: 250px;
+    font-size:30px;
+    color:white;
+    
+}
+.tela1{
+    position: relative;
+    width: 660px;
+    left: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px rgb(200, 200, 200);
+    
+}
+.formatext{
+    width: 5.2cm;
+    
+}
+
+.formatext{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-top: 30px;
+    
+}
+.tela2{
+    position: relative;
+    width: 640px;
+    top: -674px;
+    left: 700px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px rgb(200, 200, 200);
+}
+.tela3{
+    position: relative;
+    top:-700px;
+    width: 660px;
+    left: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px rgb(200, 200, 200);
+}
+.tela4{
+    position: relative;
+    width: 640px;
+    top: -1370px;
+    left: 700px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px rgb(200, 200, 200);
+}
+.Galerias-job{
+    height: 1300px;
+}
