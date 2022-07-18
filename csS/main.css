@@ -6,7 +6,17 @@
     box-sizing: border-box;
 
 }
+.c640 {
+	 display: block;
+}
 
+@media (max-width: 640px) {
+
+.c640 {
+ display: none;
+}
+
+}
 .menu-pincipal{
     position: relative;
     width: 100%;
